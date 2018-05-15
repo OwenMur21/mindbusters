@@ -1,0 +1,30 @@
+.jumbotron{
+background-color: black;
+text-align: center;
+
+}
+
+
+
+
+
+.footer{
+  position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: black;
+     text-align: left;
+
+}
+ .icon-img{
+   text-align: left;
+   align-items: center;
+   padding-left: 500px;
+   margin:0.5%
+
+ }
+
+#one two three four{
+  padding:10px;
+}
