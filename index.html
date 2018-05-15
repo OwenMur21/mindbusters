@@ -1,12 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
   <title>MindBusters</title>
 </head>
-<body>
 
+<body>
+  <div class="tru-self">
+    <button>Inner-villain</button>
+    <button>Spirit animal</button>
+    <div id="villain">
+      <form id=innerv>
+
+        <label for="name">1) What is the ability you'd like to have?</label>
+        <div class="checkbox">
+          <label>
+          <input id="aku" name="genre" type="checkbox" value="Shape shifting and Time travel">Shape shifting and Time travel
+        </label></br>
+          <label>
+          <input id="vol" type="checkbox" value="Magical spells and curses">Magical spells and curses
+        </label></br>
+          <label>
+          <input id="joker"  type="checkbox" value="Master of deception and an arsenal of weapons">Master of deception and an arsenal of weapons
+        </label></br>
+          <label>
+          <input id="aku" type="checkbox" value=""Illusions and Possesions>Illusions and Possesions
+        </label></br>
+          <label>
+          <input id="aku" type="checkbox" value="Great brawling/melee combat skills">Great brawling/melee combat skills
+        </label></br>
+        </div>
+
+        <label for="name">2) You've finally caught your enemy, what would you do to them?</label>
+        <div class="radio">
+          <label>
+       <input type="radio" name="genre" value="Kill them instantly">
+       Kill them instantly
+     </label>
+          <label>
+       <input type="radio" name="genre" value="Lock them up to prevent it happening next time">
+       Lock them up to prevent it happening next time
+     </label>
+          <label>
+       <input type="radio" name="genre" value="Torture them then kill them slowly">
+      Torture them then kill them slowly
+     </label>
+          <label>
+       <input type="radio" name="genre" value="Cripple/dismember them to make them powerless for good">
+      Cripple/dismember them to make them powerless for good
+     </label>
+          <label>
+       <input type="radio" name="genre" value="Release them eventually only to hunt them again cause you enjoy the chase">
+      Release them eventually only to hunt them again cause you enjoy the chase
+     </label>
+        </div>
+
+        <div class="form-group">
+          <label for="name">3) You've gone rogue in the city, what would you do?</label></br>
+          <button id="aku">Kill everybody indiscriminately and steal anything</button></br>
+          <button id="vol">Recruit followers and build an army to rule</button></br>
+          <button id="joker" type="button">Attack only people who have a personal affiliation with you</button></br>
+          <button id="aku" type="button">Attack the little people who offer no to little resistance</button></br>
+          <button id="aku" type="button">Scare everyone till they give up</button></br>
+        </div>
+        <div class="form-group">
+          <label for="name">4) One of your sidekicks/minions has doublecrossed you, what would you do?</label></br>
+          <select class="form-control">
+        <option value="1">Hit them to remind them who's boss</option>
+        <option value="2">Lock the up to preventing it from happening again</option>
+        <option value="3">You don't take chances and get rid of them there!</option>
+        <option value="4">Demote them from their previous level in your ranks</option>
+        <option value="5">Threaten them to keep them in-line</option>
+      </select>
+        </div>
+        <div class="form-group">
+          <label for="name">5) What's your favorite hobby?</label></br>
+          <input id="aku" type="image" src="img/games.jpg" width="400" height="300">
+          <input id="aku" class="pics" type="image" src="img/travel.jpg" width="400" height="300">
+          <input id="aku" class="pics" type="image" src="img/archery.jpg" width="400" height="300"></br>
+          <input id="aku" class="pics" type="image" src="img/books.jpg" width="400" height="300">
+          <input id="aku" class="pics" type="image" src="img/theatre.jpg" width="400" height="300">
+        </div>
+        <button type="submit" class="btn">Show me!</button>
+      </form>
+      <div class="ur-aku">
+
+      </div>
+      <div class="ur-aku">
+
+      </div>
+      <div class="ur-aku">
+
+      </div>
+      <div class="ur-aku">
+
+      </div>
+      <div class="ur-aku">
+
+      </div>
+    </div>
+    <div id="spiritanimal">
+      <form id=spanimal>
+        <div class="form-group">
+          <label for="name">1) How do you unwind?</label>
+          <div class="checkbox">
+            <label>
+      <input id="aku" type="checkbox" value="Go out with friends">Go out with friends </label></br>
+
+            <label>
+        <input id="vol"  type="checkbox" value="Go to the gym and workout">Go to the gym and workout</label></br>
+
+            <label>
+          <input id="joker"  type="checkbox" value="Watch tv series/make jokes">Watch tv series/make jokes</label></br>
+
+            <label>
+        <input id="aku" type="checkbox" value="Try meeting new people">Try meeting new people</label></br>
+
+            <label>
+          <input id="aku"  type="checkbox" value="Have a drink">Have a drink</label></br>
+
+            <label>
+        <input id="aku"  type="checkbox" value="Read books">Read books</label></br>
+          </div>
+
+          <label for="name">2) Someone is being dramatic, how do you deal?</label>
+          <div class="radio">
+                <label>
+          <input type="radio" name="genre" value="Try to cheer them up with jokes">Try to cheer them up with jokes</label>
+              <label>
+          <input  type="radio" name="genre" value="Try to cheer them up with jokes">Tell them to stop winning and deal</label>
+              <label>
+          <input  type="radio" name="genre" value="Try to cheer them up with jokes">Take them out to distract them</label>
+              <label>
+          <input type="radio" name="genre" value="Try to cheer them up with jokes">Awkwardly walk away</label>
+              <label>
+          <input  type="radio" name="genre" value="Try to cheer them up with jokes">Tell them to keep their problems to themselves</label>
+              <label>
+          <input  type="radio" name="genre" value="Try to cheer them up with jokes">Tell them to drink away their sorrow
+        </label>
+        </div>
+        <div class="form-group">
+          <label for="name">3) Someone pisses you off, what would you do?</label></br>
+          <button id="aku">Insult them</button></br>
+          <button id="vol" >Belittle them</button></br>
+          <button id="joker" type="button">Beat them</button></br>
+          <button id="aku" type="button">Sit down calmly with them to understand them</button></br>
+          <button id="aku" type="button">Walk away fearing what they might do</button></br>
+          <button id="aku"   type="button">Shake it off</button></br>
+        </div>
+        <div class="form-group">
+          <label for="name">4)What's your drink of choice?</label></br>
+          <select class="form-control">
+        <option value="1">Anything in the cup</option>
+        <option value="2">Soda/fruit juices</option>
+        <option value="3">Energy drinks</option>
+        <option value="4">Whiskey</option>
+        <option value="5">Vodka</option></br>
+        <option value="6">Cocktails</option></br>
+      </select>
+        </div>
+        <div class="form-group">
+          <label for="name">5) What's your favorite thing to watch on tv?</label></br>
+          <input id="aku" type="image" src="img/comedy.jpeg" width="400" height="300">
+          <input id="aku" type="image" src="img/sports.jpeg" width="400" height="300">
+          <input id="aku" type="image" src="img/music.jpg" width="400" height="300"></br>
+          <input id="aku" type="image" src="img/action.jpg" width="400" height="300">
+          <input id="aku" type="image" src="img/documentary.jpeg" width="400" height="300">
+          <input id="aku" type="image" src="img/reality.jpg" width="400" height="300">
+        </div>
+        <button type="submit" class="btn">Show me!</button>
+      </form>
+      <div class="ur-aku">
+
+      </div>
+      <div class="ur-aku">
+
+      </div>
+      <div class="ur-aku">
+
+      </div>
+      <div class="ur-aku">
+
+      </div>
+      <div class="ur-aku">
+
+      </div>
+      <div class="ur-aku">
+
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
