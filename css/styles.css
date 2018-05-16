@@ -1,3 +1,26 @@
 select.form-control{
   width: 500px;
 }
+img{
+  max-width: 400px;
+  max-height: 300px;
+  border: 2px solid black;
+}
+#spiritanimal{
+  display: none;
+}
+.ur-aku{
+  display: none;
+}
+.ur-scar{
+  display: none;
+}
+.ur-voldermort{
+  display: none;
+}
+.ur-penny{
+  display: none;
+}
+.ur-joker{
+  display: none;
+}
