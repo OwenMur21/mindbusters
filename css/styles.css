@@ -9,6 +9,9 @@ img{
 #spiritanimal{
   display: none;
 }
+#villain{
+  display: none;
+}
 .ur-aku{
   display: none;
 }
@@ -22,5 +25,26 @@ img{
   display: none;
 }
 .ur-joker{
+  display: none;
+}
+.ur-messed-up{
+  display: none;
+}
+.ur-riri{
+  display: none;
+}
+.ur-klaus{
+  display: none;
+}
+.ur-fatamy{
+  display: none;
+}
+.ur-jonnybravo{
+  display: none;
+}
+.ur-miketyson{
+  display: none;
+}
+.ur-enigma{
   display: none;
 }
