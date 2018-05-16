@@ -1,11 +1,25 @@
 .jumbotron{
-background-color: black;
+/* background-color: black; */
 text-align: center;
+
 
 }
 
+.jumbotron h1{
+  font-family:  'Fredoka One', sans-serif;
+  font-size:8em;
+  color: grey;
+}
+h2{
+  font-family: 'Allan', cursive;
+  color: grey;
+}
 
-
+body{
+  background-image: url(https://i.pinimg.com/originals/14/46/f2/1446f2261bf317586d800100fff36128.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 .footer{
@@ -13,18 +27,96 @@ text-align: center;
      left: 0;
      bottom: 0;
      width: 100%;
-     background-color: black;
-     text-align: left;
+     height:100px;
+
+
 
 }
  .icon-img{
-   text-align: left;
-   align-items: center;
-   padding-left: 500px;
-   margin:0.5%
+       text-align: center;
 
  }
 
-#one two three four{
-  padding:10px;
+
+
+
+ .one .overlay1 {
+  border-radius: 50%;
+  -moz-transform: scale(0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  color:red
+ }
+ .one:hover .overlay1,
+ .one.active .overlay1{
+  border-radius: 0%;
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+ }
+
+
+ .two .overlay2 {
+  border-radius: 50%;
+  -moz-transform: scale(0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  color:red
+ }
+ .two:hover .overlay2,
+ .two.active .overlay2{
+  border-radius: 0%;
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+ }
+
+
+
+ .three .overlay3 {
+  border-radius: 50%;
+  -moz-transform: scale(0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  color:red
+ }
+ .three:hover .overlay3,
+ .three.active .overlay3{
+  border-radius: 0%;
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+ }
+
+ .four .overlay4 {
+ 	border-radius: 50%;
+ 	-moz-transform: scale(0);
+ 	-webkit-transform: scale(0);
+ 	-ms-transform: scale(0);
+ 	transform: scale(0);
+  color:red
+ }
+ .four:hover .overlay4,
+ .four.active .overlay4{
+ 	border-radius: 0%;
+ 	-moz-transform: scale(1);
+ 	-webkit-transform: scale(1);
+ 	-ms-transform: scale(1);
+ 	transform: scale(1);
+ }
+
+li{
+  display: inline;
+}
+
+.down{
+  padding-left: 400px;
+  margin-top: 20px:
+
 }
