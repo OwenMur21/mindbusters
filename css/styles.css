@@ -1,25 +1,34 @@
 .jumbotron{
-/* background-color: black; */
+background-color: rgba(8, 29, 42, 0.45);
 text-align: center;
+height:250px;
 
 
 }
 
-.jumbotron h1{
-  font-family:  'Fredoka One', sans-serif;
-  font-size:8em;
-  color: grey;
+
+
+.jumbotron img{
+margin-top: 5px;
 }
+
+
 h2{
   font-family: 'Allan', cursive;
-  color: grey;
+  color: white;
 }
 
 body{
-  background-image: url(https://i.pinimg.com/originals/14/46/f2/1446f2261bf317586d800100fff36128.gif);
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url(https://2.bp.blogspot.com/-r3-O85wyV4k/UKGfKua3_1I/AAAAAAAAHAQ/E9phDWsQDw8/s1600/wallpaper-2047859.jpg);
 }
+
+
+
+
+
 
 
 .footer{
@@ -27,17 +36,15 @@ body{
      left: 0;
      bottom: 0;
      width: 100%;
-     height:100px;
-
-
+     height:25%;
 
 }
+
  .icon-img{
        text-align: center;
+       margin-top: 75px;
 
  }
-
-
 
 
  .one .overlay1 {
@@ -46,7 +53,7 @@ body{
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
   transform: scale(0);
-  color:red
+  color:white;
  }
  .one:hover .overlay1,
  .one.active .overlay1{
@@ -64,7 +71,7 @@ body{
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
   transform: scale(0);
-  color:red
+  color:white;
  }
  .two:hover .overlay2,
  .two.active .overlay2{
@@ -83,7 +90,7 @@ body{
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
   transform: scale(0);
-  color:red
+  color:white;
  }
  .three:hover .overlay3,
  .three.active .overlay3{
@@ -100,7 +107,7 @@ body{
  	-webkit-transform: scale(0);
  	-ms-transform: scale(0);
  	transform: scale(0);
-  color:red
+  color:white;
  }
  .four:hover .overlay4,
  .four.active .overlay4{
@@ -115,8 +122,7 @@ li{
   display: inline;
 }
 
-.down{
-  padding-left: 400px;
-  margin-top: 20px:
-
+.footer p{
+  color:white;
+  padding-left: 20px;
 }
