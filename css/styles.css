@@ -1,0 +1,156 @@
+.jumbotron {
+  background-color: rgba(12, 25, 38, 0.2);
+  text-align: center;
+  height: 320px;
+}
+
+.jumbotron img {
+  margin-top: 5px;
+}
+
+#overlayme {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(25, 15, 35, 0.9);
+  color: white;
+  font-family: 'Prompt', sans-serif;
+  font-size: 19px;
+}
+
+.title {
+  padding-top: 310px;
+}
+
+#finya {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #F70648;
+  color: white;
+}
+
+h2 {
+  font-family: 'Allan', cursive;
+  color: white;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/abstract.jpg");
+}
+
+.emoji {
+  text-align: center;
+  height: 300px;
+  padding-top: 50px;
+}
+
+ul {
+  padding-bottom: 0px;
+}
+
+#footer2 {
+  margin-top: auto;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(12, 12, 38, 0.8);
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+.arrow {
+  width: 100px;
+  position: absolute;
+  z-index: 1;
+  float: left;
+  padding-left: 5px;
+}
+
+.down {
+  color: white;
+  margin-top: 5px;
+  float: left;
+}
+
+.list-unstyled list-inline text-center {}
+
+.icon-img {
+  text-align: center;
+  margin-top: 75px;
+}
+
+.one .overlay1 {
+  border-radius: 50%;
+  -moz-transform: scale(0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  color: red;
+}
+
+.one:hover .overlay1, .one.active .overlay1 {
+  border-radius: 0%;
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.two .overlay2 {
+  border-radius: 50%;
+  -moz-transform: scale(0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  color: red;
+}
+
+.two:hover .overlay2, .two.active .overlay2 {
+  border-radius: 0%;
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.three .overlay3 {
+  border-radius: 50%;
+  -moz-transform: scale(0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  color: red;
+}
+
+.three:hover .overlay3, .three.active .overlay3 {
+  border-radius: 0%;
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.four .overlay4 {
+  border-radius: 50%;
+  -moz-transform: scale(0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  color: red;
+}
+
+.four:hover .overlay4, .four.active .overlay4 {
+  border-radius: 0%;
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+li {
+  display: inline;
+}
