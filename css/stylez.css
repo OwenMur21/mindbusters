@@ -1,0 +1,203 @@
+select.form-control{
+  width: 500px;
+}
+img{
+  max-width: 400px;
+  max-height: 300px;
+  border: 2px solid black;
+}
+#thinking{
+  border:none;
+  max-width: 200px;
+  max-height: 100px;
+}
+.tru-self{
+  text-align: center;
+  background-image: url("../img/1.jpg");
+  background-size: cover;
+  width:100%;
+  padding:15%
+}
+#choice{
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.4);
+  width: 600px;
+}
+#villain{
+  display: none;
+  background-image: url("../img/villain.jpg");
+  background-size: cover;
+  padding: 300px;
+
+}
+h1{
+  font-family: 'Kalam', cursive;
+}
+h2{
+  font-family: 'Kavivanar', cursive;
+  font-weight: bolder;
+  font-size: 35px;
+  color: white;
+
+}
+#vilz{
+  padding:50px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background-color: #82508A;
+  font-size: 20px;
+
+}
+#vilz:hover{
+  padding:50px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background-color: #99217A;
+  color: white;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+#spirit{
+  padding:50px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background-color: #A9DD90;
+  font-size: 20px;
+
+}
+#spirit:hover{
+  padding:50px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background-color: #316517;
+  font-size: 20px;
+  color: white;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+   0% { transform: translate(1px, 1px) rotate(0deg); }
+   10% { transform: translate(-1px, -2px) rotate(-1deg); }
+   20% { transform: translate(-3px, 0px) rotate(1deg); }
+   30% { transform: translate(3px, 2px) rotate(0deg); }
+   40% { transform: translate(1px, -1px) rotate(1deg); }
+   50% { transform: translate(-1px, 2px) rotate(-1deg); }
+   60% { transform: translate(-3px, 1px) rotate(0deg); }
+   70% { transform: translate(3px, 1px) rotate(-1deg); }
+   80% { transform: translate(-1px, -1px) rotate(1deg); }
+   90% { transform: translate(1px, 2px) rotate(0deg); }
+   100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+}
+.tru-self{
+  display: none;
+}
+
+#spiritanimal{
+    display: none;
+    background-image: url("../img/animal.jpg");
+    background-size: cover;
+    padding: 300px;
+}
+.genre{
+  max-width: 200px;
+  height: 100px;
+}
+#spanimal{
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  width:100%;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+}
+#innerv{
+  background-color: rgba(255, 255, 255, 0.2);
+   color: white;
+  width:100%;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+}
+.ur-aku{
+  display: none;
+  text-align: center;
+  font-family: 'Fondamento', cursive;
+  color: white;
+  font-size: 25px;
+}
+.ur-scar{
+  display: none;
+    text-align: center;
+    font-family: 'Fondamento', cursive;
+    color: white;
+    font-size: 25px;
+}
+.ur-voldermort{
+  display: none;
+    text-align: center;
+    font-family: 'Fondamento', cursive;
+    color: white;
+    font-size: 25px;
+}
+.ur-penny{
+  display: none;
+    text-align: center;
+    font-family: 'Fondamento', cursive;
+    color: white;
+    font-size: 25px;
+}
+.ur-joker{
+  display: none;
+    text-align: center;
+    font-family: 'Fondamento', cursive;
+    color: white;
+    font-size: 25px;
+}
+.ur-messed-up{
+  display: none;
+    text-align: center;
+    font-family: 'Fondamento', cursive;
+    color: white;
+    font-size: 25px;
+}
+.ur-riri{
+  display: none;
+    text-align: center;
+    font-family: 'Fondamento', cursive;
+    color: white;
+    font-size: 25px;
+}
+.ur-klaus{
+  display: none;
+    text-align: center;
+    font-family: 'Fondamento', cursive;
+    color: white;
+    font-size: 25px;
+}
+.ur-fatamy{
+  display: none;
+    text-align: center;
+    font-family: 'Fondamento', cursive;
+    color: white;
+    font-size: 25px;
+}
+.ur-jonnybravo{
+  display: none;
+    text-align: center;
+    font-family: 'Fondamento', cursive;
+    color: white;
+    font-size: 25px;
+}
+.ur-miketyson{
+  display: none;
+    text-align: center;
+    font-family: 'Fondamento', cursive;
+    color: white;
+    font-size: 25px;
+}
+.ur-enigma{
+  display: none;
+    text-align: center;
+    font-family: 'Fondamento', cursive;
+    color: white;
+    font-size: 25px;
+}
