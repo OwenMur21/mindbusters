@@ -1,8 +1,7 @@
 .jumbotron{
-background-color: rgba(8, 29, 42, 0.45);
+background-color: rgba(12, 25, 38, 0.2);
 text-align: center;
-height:250px;
-
+height:320px;
 
 }
 
@@ -13,32 +12,87 @@ margin-top: 5px;
 }
 
 
+#overlayme {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color:rgba(25, 15, 35, 0.9);
+  color:red;
+}
+.title{
+  padding-top: 310px;
+}
+
+
+
+
+
 h2{
   font-family: 'Allan', cursive;
   color: white;
 }
 
 body{
-  background-color: black;
+
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(https://2.bp.blogspot.com/-r3-O85wyV4k/UKGfKua3_1I/AAAAAAAAHAQ/E9phDWsQDw8/s1600/wallpaper-2047859.jpg);
+  background-image: url("../img/abstract.jpg");
+
+
 }
 
 
 
 
+.emoji{
+  text-align: center;
+  height:300px;
+  padding-top: 50px;
+}
+
+ul{
+  padding-bottom: 0px;
+}
 
 
 
-.footer{
-  position: fixed;
-     left: 0;
-     bottom: 0;
+#footer2{
+
+  margin-top: auto;
      width: 100%;
-     height:25%;
+    height:100px;
+     background-color: rgba(12, 12, 38, 0.8);
+     padding-top: 20px;
+     padding-bottom: 0;
+
+
+
+
 
 }
+
+
+.arrow{
+  width:100px;
+  position: absolute;
+  z-index: 1;
+  float: left;
+  padding-left: 5px;
+
+}
+
+.down{
+  color:white;
+  margin-top: 5px;
+  float: left;
+}
+.list-unstyled list-inline text-center{
+
+}
+
 
  .icon-img{
        text-align: center;
@@ -53,7 +107,7 @@ body{
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
   transform: scale(0);
-  color:white;
+  color:red;
  }
  .one:hover .overlay1,
  .one.active .overlay1{
@@ -71,7 +125,7 @@ body{
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
   transform: scale(0);
-  color:white;
+  color:red;
  }
  .two:hover .overlay2,
  .two.active .overlay2{
@@ -90,7 +144,7 @@ body{
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
   transform: scale(0);
-  color:white;
+  color:red;
  }
  .three:hover .overlay3,
  .three.active .overlay3{
@@ -107,7 +161,7 @@ body{
  	-webkit-transform: scale(0);
  	-ms-transform: scale(0);
  	transform: scale(0);
-  color:white;
+  color:red;
  }
  .four:hover .overlay4,
  .four.active .overlay4{
@@ -119,10 +173,6 @@ body{
  }
 
 li{
-  display: inline;
-}
 
-.footer p{
-  color:white;
-  padding-left: 20px;
+  display: inline;
 }
