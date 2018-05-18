@@ -30,19 +30,21 @@
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 800px;
+  height: 100vh;
 }
 
 #openbtn1 {
-  width: 150px;
+  width: 400px;
   height: 150px;
   margin: 300px;
+  font-size: 30px;
 }
 
 #openbtn2 {
-  width: 150px;
+  width: 400px;
   height: 150px;
   margin: 300px;
+  font-size: 30px;
 }
 
 #openbtn1:hover {

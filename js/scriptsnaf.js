@@ -2,11 +2,11 @@
 $(document).ready(function() {
   $("form#riddleeasy").submit(function(event) {
     event.preventDefault();
-    var ans1 = $("input:radio[name=q1a]:checked").val();
-    var ans2 = $("input:radio[name=q2c]:checked").val();
-    var ans3 = $("input:radio[name=q3d]:checked").val();
-    var ans4 = $("input:radio[name=q4b]:checked").val();
-    var ans5 = $("input:radio[name=q5c]:checked").val();
+    var ans1 = $("input:radio[name=ends]:checked").val();
+    var ans2 = $("input:radio[name=never]:checked").val();
+    var ans3 = $("input:radio[name=clap]:checked").val();
+    var ans4 = $("input:radio[name=odd]:checked").val();
+    var ans5 = $("input:radio[name=rainbow]:checked").val();
 
     var results = [ans1, ans2, ans3, ans4, ans5];
     var counts = {};
@@ -23,11 +23,11 @@ $(document).ready(function() {
 
   $("form#tougher").submit(function(event) {
     event.preventDefault();
-    var ans6 = $("input:radio[name=g1b]:checked").val();
-    var ans7 = $("input:radio[name=g2b]:checked").val();
-    var ans8 = $("input:radio[name=g3c]:checked").val();
-    var ans9 = $("input:radio[name=g4d]:checked").val();
-    var ans10 = $("input:radio[name=g5a]:checked").val();
+    var ans6 = $("input:radio[name=word]:checked").val();
+    var ans7 = $("input:radio[name=bridge]:checked").val();
+    var ans8 = $("input:radio[name=list]:checked").val();
+    var ans9 = $("input:radio[name=more]:checked").val();
+    var ans10 = $("input:radio[name=short]:checked").val();
 
 
 
