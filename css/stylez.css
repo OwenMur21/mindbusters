@@ -42,7 +42,7 @@ h1 {
 h2 {
   font-family: 'Kavivanar', cursive;
   font-weight: bolder;
-  font-size: 35px;
+  font-size: 40px;
   color: white;
 }
 
@@ -142,15 +142,17 @@ h2 {
   color: white;
   width: 100%;
   font-family: 'Inconsolata', monospace;
-  font-size: 20px;
+  font-size: 26px;
 }
-
+.radio{
+  color: #1CC4BF;
+}
 #innerv {
   background-color: rgba(255, 255, 255, 0.2);
   color: white;
   width: 100%;
   font-family: 'Inconsolata', monospace;
-  font-size: 20px;
+  font-size: 26px;
 }
 
 .ur-aku {
