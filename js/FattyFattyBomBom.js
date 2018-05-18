@@ -26,7 +26,7 @@ $(document).ready(function() {
     event.preventDefault();
     var ans7 = $("input:radio[name=appearances]:checked").val();
     var ans8 = $("input:radio[name=brand]:checked").val();
-    var ans9 = $("input:radio[name=win").val();
+    var ans9 = $("input:radio[name=win]:checked").val();
     var ans10 = $("input:radio[name=unbeaten]:checked").val();
     var ans11 = $("input:radio[name=live]:checked").val();
     var ans12 = $("input:radio[name=against]:checked").val();
