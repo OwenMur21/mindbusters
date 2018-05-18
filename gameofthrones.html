@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Game of Thrones Fan-Quest</title>
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="css/FattyFattyBomBom.css" type="text/css">
-    <script src="js/jquery.js"></script>
-    <script src="js/FattyFattyBomBom.js"></script>
-  </head>
-  <body>
-    <div id="fanQuestGot">
+
+<head>
+  <title>Game of Thrones Fan-Quest</title>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/FattyFattyBomBom.css" type="text/css">
+  <script src="js/jquery.js"></script>
+  <script src="js/FattyFattyBomBom.js"></script>
+</head>
+
+<body>
+  <div id="fanQuestGot">
     <form id="got">
       <h1>GAME OF THRONES TRIVIA</h1>
 
-          <div>
-            <h2>"When you play the game of thrones:"</h2>
-            <div class="radio">
-              <label>
+      <div>
+        <h2>"When you play the game of thrones:"</h2>
+        <div class="radio">
+          <label>
               <input type="radio" name="x1a" value="false">"...the man who passes the sentence should swing the"</label>
-              <label>
+          <label>
               <input type="radio"  name="x1b" value="false">"...it's the family name that lives on. It's the family"</label>
-            <label>
+          <label>
             <input type="radio"  name="x1c" value="true">"...you win or you die"</label>
-            <label>
+          <label>
             <input type="radio"  name="x1d" value="false">"...may the odds be in your favour"</label>
-            <label>
+          <label>
           </div>
         </div>
 
@@ -32,13 +34,13 @@
             <div class="radio">
               <label>
               <input type="radio"  name="x2a" value="false">Breaker of chains</label>
-              <label>
+          <label>
               <input type="radio"  name="x2b" value="false">Mother of dragons</label>
-              <label>
+          <label>
               <input type="radio"  name="x2c" value="true">Unscorched</label>
-              <label>
+          <label>
               <input type="radio"  name="x2d" value="false">Queen of Meeren</label>
-              <label>
+          <label>
             </div>
           </div>
 
@@ -48,73 +50,73 @@
             <div class="radio">
               <label>
               <input type="radio"  name="x3a" value="false">Grey wind</label>
-              <label>
+          <label>
               <input type="radio"  name="x3b" value="true">Ghost</label>
-              <label>
+          <label>
               <input type="radio"  name="x3c" value="false">Nymeria</label>
-              <label>
+          <label>
               <input type="radio"  name="x3d" value="false">Lady"</label>
 
-          </div>
-          </div>
-
-          <div>
-            <h2>Which name given to the bastards of the Westlands?</h2>
-            <div class="radio">
-              <label>
-              <input type="radio"  name="x4a" value="true">Sand</label>
-              <label>
-              <input type="radio"  name="x4b" value="false">Hill</label>
-              <label>
-              <input type="radio"  name="x4c" value="false">Snow</label>
-              <label>
-              <input type="radio" name="x4d" value="false">Storm</label>
-            </div>
-          </div>
-
-          <div>
-            <h2>Where do Khaleesi's dragons hatch at the end of season 1?</h2>
-            <div class="radio">
-              <label>
-              <input type="radio"  name="x5a" value="false">Qarth</label>
-              <label>
-              <input type="radio"  name="x5b" value="false">Underwater"</label>
-              <label>
-              <input type="radio"  name="x5c" value="false">In an abandoned hill</label>
-              <label>
-              <input type="radio"  name="x5d" value="true">Drago's funeral</label>
-            </div>
-          </div>
-
-          <div>
-            <h2>Who said "Say it. Say her name. Say it!"</h2>
-            <div class="radio">
-              <label>
-              <input type="radio"  name="x6a" value="false">Rorge</label>
-              <label>
-              <input type="radio"  name="x6b" value="false">Ros</label>
-              <label>
-              <input type="radio"  name="x6c" value="false">Joffrey</label>
-              <label>
-              <input type="radio"  name="x6d" value="true">Oberyn Mortell</label>
-            </div>
-            </div>
-          <button id="gotResults" onclick="counts">View Results</button>
-        <div id="correctAns">
-          <img src="img/respect.jpeg" alt="">
-         <h2>And the answers are:</h2>
-         <ol>
-           <li>"...you win or you die"</li>
-           <li>Unscorched</li>
-           <li>Ghost</li>
-           <li>Sand</li>
-           <li>Drago's funeral</li>
-           <li>Oberyn Mortell</li>
-         </ol>
         </div>
-        <div id="wrongAns">
-          <img src="img/know.png" alt="">
-         <h2>And the answers are:</h4>
+      </div>
+
+      <div>
+        <h2>Which name given to the bastards of the Westlands?</h2>
+        <div class="radio">
+          <label>
+              <input type="radio"  name="x4a" value="true">Sand</label>
+          <label>
+              <input type="radio"  name="x4b" value="false">Hill</label>
+          <label>
+              <input type="radio"  name="x4c" value="false">Snow</label>
+          <label>
+              <input type="radio" name="x4d" value="false">Storm</label>
+        </div>
+      </div>
+
+      <div>
+        <h2>Where do Khaleesi's dragons hatch at the end of season 1?</h2>
+        <div class="radio">
+          <label>
+              <input type="radio"  name="x5a" value="false">Qarth</label>
+          <label>
+              <input type="radio"  name="x5b" value="false">Underwater"</label>
+          <label>
+              <input type="radio"  name="x5c" value="false">In an abandoned hill</label>
+          <label>
+              <input type="radio"  name="x5d" value="true">Drago's funeral</label>
+        </div>
+      </div>
+
+      <div>
+        <h2>Who said "Say it. Say her name. Say it!"</h2>
+        <div class="radio">
+          <label>
+              <input type="radio"  name="x6a" value="false">Rorge</label>
+          <label>
+              <input type="radio"  name="x6b" value="false">Ros</label>
+          <label>
+              <input type="radio"  name="x6c" value="false">Joffrey</label>
+          <label>
+              <input type="radio"  name="x6d" value="true">Oberyn Mortell</label>
+        </div>
+      </div>
+      <button id="gotResults" onclick="counts">View Results</button>
+      <div id="correctAns">
+        <img src="img/respect.jpeg" alt="">
+        <h2>And the answers are:</h2>
+        <ol>
+          <li>"...you win or you die"</li>
+          <li>Unscorched</li>
+          <li>Ghost</li>
+          <li>Sand</li>
+          <li>Drago's funeral</li>
+          <li>Oberyn Mortell</li>
+        </ol>
+      </div>
+      <div id="wrongAns">
+        <img src="img/know.png" alt="">
+        <h2>And the answers are:</h4>
            <ol>
              <li>"...you win or you die"</li>
              <li>Unscorched</li>

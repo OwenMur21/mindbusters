@@ -1,138 +1,140 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/stylesnaf.css" rel="stylesheet" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="js/scriptsnaf.js"></script>
-    <title>EASY-PEASY</title>
-  </head>
-  <body>
-    <form id="riddleeasy">
-      <div class="jumbotron" id="easy">
-    <h2>EASY-PEASY</h2>
-  </div>
-  <div class="container" id="contain">
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/stylesnaf.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/scriptsnaf.js"></script>
+  <title>EASY-PEASY</title>
+</head>
+
+<body>
+  <form id="riddleeasy">
+    <div class="jumbotron" id="easy">
+      <h2>EASY-PEASY</h2>
+    </div>
+    <div class="container" id="contain">
       <p>Instructions: Click on the answer that you think is right</p>
-  <ol>
-    <li>What starts with the letter "t",is filled with "t" and ends in "t"?
-       <div class="radio">
-         <label>
+      <ol>
+        <li>What starts with the letter "t",is filled with "t" and ends in "t"?
+          <div class="radio">
+            <label>
       <input type="radio" name="q1a" value="right">
       Teapot
     </label></br>
-    <label>
+            <label>
  <input type="radio" name="q1b" value="false">
  Cat
 </label></br>
-<label>
+            <label>
 <input type="radio" name="q1c" value="false">
 Tarzan
 </label></br>
-<label>
+            <label>
 <input type="radio" name="q1d" value="false">
 Tape
 </label></br>
-</div>
-   </li>
-  <li>What never asks questions but is often answered?
-      <div class="radio">
-        <label>
+          </div>
+        </li>
+        <li>What never asks questions but is often answered?
+          <div class="radio">
+            <label>
       <input type="radio" name="q2a" value="false">
       Principal
       </label></br>
-      <label>
+            <label>
       <input type="radio" name="q2b" value="false">
       Fire
       </label></br>
-      <label>
+            <label>
       <input type="radio" name="q2c" value="right">
       Doorbell
       </label></br>
-      <label>
+            <label>
       <input type="radio" name="q2d" value="false">
       Pope
       </label></br>
-    </div>
- </li>
-<li>What has hands but cannot clap?
-  <div class="radio">
-    <label>
+          </div>
+        </li>
+        <li>What has hands but cannot clap?
+          <div class="radio">
+            <label>
   <input type="radio" name="q3a" value="false">
   Ants
   </label></br>
-  <label>
+            <label>
   <input type="radio" name="q3b" value="false">
   Fly
   </label></br>
-  <label>
+            <label>
   <input type="radio" name="q3c" value="false">
   Plants
   </label></br>
-  <label>
+            <label>
   <input type="radio" name="q3d" value="right">
   Clock
   </label></br>
-</div>
-</li>
- <li>I am an odd number.Take away one letter and i become even.What number am i?
-   <div class="radio">
-     <label>
+          </div>
+        </li>
+        <li>I am an odd number.Take away one letter and i become even.What number am i?
+          <div class="radio">
+            <label>
    <input type="radio" name="q4a" value="false">
    One
    </label></br>
-   <label>
+            <label>
    <input type="radio" name="q4b" value="right">
    Seven
    </label></br>
-   <label>
+            <label>
    <input type="radio" name="q4c" value="false">
    Three
    </label></br>
-   <label>
+            <label>
    <input type="radio" name="q4d" value="false">
    Six
    </label></br>
- </div>
- </li>
-  <li>What is at the end of a rainbow?
-    <div class="radio">
-      <label>
+          </div>
+        </li>
+        <li>What is at the end of a rainbow?
+          <div class="radio">
+            <label>
     <input type="radio" name="q5a" value="false">
     Rain
     </label></br>
-    <label>
+            <label>
     <input type="radio" name="q5b" value="false">
     Gold
    </label></br>
-    <label>
+            <label>
     <input type="radio" name="q5c" value="right">
     W
     </label></br>
-    <label>
+            <label>
     <input type="radio" name="q5d" value="false">
     Bow
     </label></br>
-  </div>
-  </li>
-</ol>
- <button onclick="counts">View Results</button>
+          </div>
+        </li>
+      </ol>
+      <button onclick="counts">View Results</button>
 
-<div id="rightans">
+      <div id="rightans">
 
-  <img src="passed2.jpeg" alt="Image of passer">
-  <h2>RIGHT ANSWERS RESPECTIVELY:</h2>
-  <ol>
-    <li>Teapot</li>
-    <li>Doorbell</li>
-    <li>Clock</li>
-    <li>Seven</li>
-    <li>W</li>
-  </ol>
-</div>
-<div id="failedans">
-  <img src="pass4.jpeg" alt="Image of failure">
-  <h3>RIGHT ANSWERS RESPECTIVELY:</h4>
+        <img src="passed2.jpeg" alt="Image of passer">
+        <h2>RIGHT ANSWERS RESPECTIVELY:</h2>
+        <ol>
+          <li>Teapot</li>
+          <li>Doorbell</li>
+          <li>Clock</li>
+          <li>Seven</li>
+          <li>W</li>
+        </ol>
+      </div>
+      <div id="failedans">
+        <img src="pass4.jpeg" alt="Image of failure">
+        <h3>RIGHT ANSWERS RESPECTIVELY:</h4>
 
   <ol>
     <li>Teapot</li>

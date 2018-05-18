@@ -1,6 +1,6 @@
-$(document).ready(function(){
-$("#finya").click(function(){
-  $("#overlayme").hide();
-});
+$(document).ready(function() {
+  $("#finya").click(function() {
+    $("#overlayme").hide();
+  });
 
 });
